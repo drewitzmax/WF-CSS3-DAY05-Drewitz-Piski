@@ -1,0 +1,85 @@
+* {
+  margin: 0; }
+
+body {
+  font-family: sans-serif;
+  margin: 0; }
+
+.top_banner {
+  display: flex;
+  align-items: center;
+  background-color: #EDEDED;
+  padding: 8px; }
+
+.top_banner > img {
+  height: 18vh; }
+
+.top_banner > p {
+  font-weight: bold;
+  font-size: 2em; }
+
+nav {
+  width: 100%;
+  background-color: #653D3D;
+  margin: 0; }
+
+.links {
+  padding: 10px 0; }
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 15px 15px; }
+
+a:hover {
+  color: white; }
+
+nav {
+  display: inline-block; }
+
+#text_area {
+  padding: 70px 0; }
+
+.main_text {
+  font-size: 5em;
+  text-align: center; }
+
+#latest_area {
+  background-color: gray;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: solid; }
+
+#latest_area > p {
+  color: white;
+  padding-left: 15px;
+  font-weight: bold; }
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.pictures > .picture > img {
+  width: 100%; }
+
+.picture {
+  display: flex;
+  height: 200px;
+  width: 400px;
+  margin: 25px;
+  background-image: url("https://www.fjords.com/wp-content/uploads/2018/09/DSC_1761-2000x1200.jpg");
+  background-size: cover;
+  background-position: top;
+  align-items: flex-end; }
+
+.picture > p {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
